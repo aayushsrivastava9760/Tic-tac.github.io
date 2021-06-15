@@ -1,0 +1,129 @@
+.left {
+    float: left;
+    width: 20%; 
+   }
+   
+   .main {
+    float: left;
+    width: 60%; 
+   }
+   
+   .right {
+    float: left;
+    width: 20%; 
+   }
+   
+   .text {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 40px darkblue;
+    font-size:100px;
+    text-align: center;
+   }
+   
+   
+   body {
+    background-color:black;
+   }
+    
+   .container {
+    text-align:center;
+    flex-wrap: wrap;
+   }
+   
+   .button {
+     background-color: aqua;
+     border: none;
+     color: white;
+     padding: 20px 50px;
+     text-align: center;
+     font-size: 30px;
+     margin: 4px 2px;
+     border-radius: 4px;
+     display: inline-block;
+     text-decoration: none;
+     cursor: pointer;
+     width:300px;
+     height:100px;
+   } 
+   
+   .button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 30px 40px rgba(145, 92, 182, .4);
+   }
+   
+   .matter {
+     color: white;
+     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 40px darkblue;
+     text-align: center;
+     font-size: 30px;
+   }
+   
+   .box {
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 77px;
+    margin: 0px 0px;
+    border-radius: 4px;
+    display: inline-block;
+    cursor: pointer;
+    width:50px;
+    height:50px;
+    float=left;
+    flex: 50%;
+    opacity: 0.6;
+    
+   } 
+   
+   .box:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 100px 100px rgba(145, 92, 182, .4);
+    opacity: 1;
+   }
+   
+   .tile {
+    background-color: aqua;
+     border: none;
+     color: white;
+     padding: 20px 50px;
+     text-align: center;
+     font-size: 30px;
+     margin: 4px 2px;
+     border-radius: 4px;
+     display: inline-block;
+     text-decoration: none;
+     width:130px;
+     height:50px;
+   }
+   
+   .score {
+    
+    color: white;
+     padding: 20px 50px;
+     text-align: center;
+     font-size: 40px;
+     margin: 4px 2px;
+     border-radius: 4px;
+     display: inline-block;
+     text-decoration: none;
+     width:130px;
+     height:50px;
+   }
+   
+   .entry {
+    background-color: powderblue;
+     border: none;
+     color: white;
+     padding: 20px 50px;
+     text-align: center;
+     font-size: 50px;
+     margin: 4px 2px;
+     border-radius: 4px;
+     display: inline-block;
+     text-decoration: none;
+     
+     width:200px;
+     height:70px;
+   }

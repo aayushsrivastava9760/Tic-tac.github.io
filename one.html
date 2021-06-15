@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tic-Tac-Toe</title>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+
+
+
+<body onload="name()">
+
+<div class="left">
+<div class="tile" id="name1"><b></b></div>
+<br>
+<br>
+
+<div class="score" id="player1"></div>
+<br>
+<br>
+<div class="score" id="turn1">Your Turn</div>
+</div>
+
+<div class="main">
+
+<div class="text">Tic-Tac-Toe</div>
+<br>
+<br>
+<br>
+<div class="container">
+<div id="box1" class="box" onclick="change2('box1');check();score_board()"></div>
+<div id="box2" class="box" onclick="change2('box2');check();score_board()"></div>
+<div id="box3" class="box" onclick="change2('box3');check();score_board()"></div>
+<br>
+<div id="box4" class="box" onclick="change2('box4');check();score_board()"></div>
+<div id="box5" class="box" onclick="change2('box5');check();score_board()"></div>
+<div id="box6" class="box" onclick="change2('box6');check();score_board()"></div>
+<br>
+<div id="box7" class="box" onclick="change2('box7');check();score_board()"></div>
+<div id="box8" class="box" onclick="change2('box8');check();score_board()"></div>
+<div id="box9" class="box" onclick="change2('box9');check();score_board()"></div>
+<br>
+<br>
+<br>
+<button class="button" onclick="document.location='one.html';reset()"><b>Reset<b></button>
+<br>
+<button class="button" onclick="document.location='index.html'"><b>Main Menu<b></button>
+</div>
+</div>
+
+<div class="right">
+<div class="tile"><b>Computer</b></div>
+<br>
+<br>
+
+<div class="score" id="player2"></div>
+<br>
+<br>
+<div class="score" id="turn2"></div>
+</div>
+</body>
+</html>
